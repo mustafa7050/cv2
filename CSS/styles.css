@@ -1,0 +1,39 @@
+body{
+    font-family: Tahoma;
+    background-color: #EAF6F6;
+}
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+a {
+    text-decoration: none;
+}
+a::before {
+    content: "🔗";
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-color: gray;
+    border-width: 5px;
+}
+
+h1, h3 {
+    color: #66BFBF;
+}
+
+.middle {
+    border: 2px solid;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.middle td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 10px 15px;
+}
